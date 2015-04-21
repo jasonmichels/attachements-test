@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+/* GET thank you page */
+router.get('/thanks', function(req, res, next) {
+  res.render('thanks');
+});
+
 module.exports = router;
